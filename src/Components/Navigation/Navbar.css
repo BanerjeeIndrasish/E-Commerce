@@ -1,0 +1,162 @@
+/* .row,.row2{ background: #ecffec; width: 100vw ; margin-top: 0px;}
+header{width: 100%; height: 60px; margin: auto;}
+header.logo img{width: 80px; height: 60px; object-fit: fill;}
+header .headerSearch{padding-left: 5px; margin: 10px; width: 100%; height: 40px; border: 1px solid #3bb77e; display: flex; 
+justify-content: space-around;}
+header .headerSearch .serachBox{width: 60%; padding: 5px;}
+header .headerSearch .serachBox input{width: 100%; border: 0px;outline: none !important;}
+header .headerSearch .searchIcon{padding: 5px; position: relative; right: 7px; opacity: 0.5; cursor: pointer;}
+.location{padding: 10px;height: 50px;}
+.profile{padding: 12px; width: 60px; height: 60px; font-size: x-large; cursor: pointer;}
+.ProfilePopup{width: 250px; box-shadow: 0 3px 6px rgba(0 0 0 / 20%); background: azure; z-index: 100;} */
+
+/* General Styles */
+.row{
+    background: #ecffec;
+    width: 100vw;
+    margin-top: 0px;
+}
+
+header {
+    margin: auto;
+}
+
+header.logo img {
+    object-fit: cover;
+}
+
+header .headerSearch {
+    margin-top: 10px;
+    border: 1px solid #3bb77e;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .headerSearch .serachBox input {
+    border: 0px;
+    outline: none !important;
+}
+
+header .headerSearch .searchIcon {
+    position: relative;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.profile {
+    cursor: pointer;
+    position: relative;
+}
+
+.ProfilePopup {
+    position: absolute;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    background: azure;
+    z-index: 105;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 2560px) {
+   
+    header {
+        width: 100%;
+        height: 60px;
+    }
+    
+    header.logo img {
+        width: 80px;
+        height: 60px;
+    }
+    
+    header .headerSearch {        
+        padding-left: 5px;
+        width: 100%;
+        height: 40px;
+    }
+    
+    header .headerSearch .serachBox {
+        width: 60%;
+        padding: 5px;
+    }
+    
+    header .headerSearch .serachBox input {
+        width: 100%;
+    }
+    
+    header .headerSearch .searchIcon {
+        padding: 5px;
+        right: 7px;
+    }
+    
+    .location {
+        padding: 10px;
+        height: 50px;
+    }
+    
+    .profile {
+        padding: 12px;
+        width: 60px;
+        height: 60px;
+        font-size: x-large;
+        left: 60px;
+    }
+    
+    .ProfilePopup {
+        right: 120px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        width: 100%;
+        height: 60px;
+    }
+    
+    header.logo img {
+        width: 40px;
+        height: 30px;
+    }
+    
+    header .headerSearch {
+        padding-left: 5px;
+        width: 100%;
+        height: 40px;
+    }
+    
+    header .headerSearch .serachBox {
+        width: 60%;
+        padding: 5px;
+    }
+    
+    header .headerSearch .serachBox input {
+        width: 100%;
+    }
+    
+    header .headerSearch .searchIcon {
+        padding: 5px;
+        right: 7px;
+    }
+    
+    .location {
+        padding: 10px;
+        height: 50px;
+    }
+    .profile {
+        padding: 12px;
+        width: 60px;
+        height: 60px;
+        font-size: x-large;
+        left: 60px;
+    }   
+    .ProfilePopup {
+        right: 120px;
+        width: 250px;
+    }
+    .row{
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; */
+    }
+}

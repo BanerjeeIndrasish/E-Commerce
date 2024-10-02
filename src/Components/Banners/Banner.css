@@ -1,0 +1,17 @@
+.banner-container{display: flex; flex-wrap: wrap; cursor: pointer; gap: 15px;}
+.banner-category{font-size: 40px; font-weight: 500;}
+.banner{transition: transform 0.8s ease; transform: rotateX(360deg);}
+/* display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: auto; gap: 25px; */
+
+@media (max-width: 2560px){
+    .banner-container{padding: 25px; 
+    gap: 15px;}
+}
+
+@media (max-width: 576px){
+    .banner-container{padding: 10px;}
+    .banner-container .Categorycard{
+        width: 80px;
+        height: 40px;
+    }
+}

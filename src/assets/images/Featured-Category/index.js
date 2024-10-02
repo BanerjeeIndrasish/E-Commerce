@@ -1,0 +1,15 @@
+export {default as image1} from './cat-1.png';
+export {default as image2} from './cat-2.png';
+export {default as image3} from './cat-3.png';
+export {default as image4} from './cat-4.png';
+export {default as image5} from './cat-5.png';
+export {default as image6} from './cat-6.png';
+export {default as image7} from './cat-7.png';
+export {default as image8} from './cat-8.png';
+export {default as image9} from './cat-9.png';
+export {default as image10} from './cat-10.png';
+export {default as image11} from './cat-11.png';
+export {default as image12} from './cat-12.png';
+export {default as image13} from './cat-13.png';
+export {default as image14} from './cat-14.png';
+export {default as image15} from './cat-15.png';

@@ -1,0 +1,12 @@
+export {default as image1} from './banner-1.png';
+export {default as image2} from './banner-2.png';
+export {default as image3} from './banner-3.png';
+export {default as image4} from './banner-4.png';
+export {default as image5} from './banner-5.png';
+export {default as image6} from './banner-6.png';
+export {default as image7} from './banner-7.png';
+export {default as image8} from './banner-8.png';
+export {default as image9} from './banner-9.png';
+export {default as image10} from './banner-10.jpg';
+export {default as image11} from './banner-11.png';
+export {default as image12} from './banner-12.png';
